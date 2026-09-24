@@ -44,7 +44,7 @@ function mostrar(lista) {
         const item = document.createElement('li');
         item.innerHTML = `  <div class="top-box-item">
                                 <div class="product-type">${tipo}</div>
-                                <img src="${image_url}" class="product-image">
+                                <img src="${image_url}" alt="${marca} ${modelo}" class="product-image">
                             </div>   
                             <div class="line-box-item"></div>
                             <div class="bottom-box-item">
