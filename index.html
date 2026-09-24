@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main>
+        <section class="catalog-page">
+            <h1 class="title">Catálogo de Produtos</h1>
+            <div class="principal-container">
+                <article class="filter-container card">
+                    <form action="" method="get" class="filter">
+                        <label for="fsearch" class="filter-form-item pesquisar">Pesquisar</label>
+                        <input type="search" name="q" id="fsearch" placeholder="ex: notebook" class="filter-form-item filter-input">
+                        <button type="submit" class="btn-search filter-form-item">Buscar</button>
+                    </form>
+                </article>
+                <article class="catalog-container">
+                    <p id="no-results" class="no-results" hidden></p>
+                    <ul id="catalog" class="catalog"></ul>
+                </article>
+            </div>
+        </section>
+    </main>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
