@@ -20,12 +20,12 @@ Notebooks, celulares, tablets, videogames, televisões, relógios, caixas de som
 
 ├── index.html
 └── assets/
-    ├── css/
-    │ └── style.css
-    ├── js/
-    │ └── script.js
-    └── images/
-      └── (imagens dos produtos em .webp)
+├── css/
+│ └── style.css
+├── js/
+│ └── script.js
+└── images/
+└── (imagens dos produtos em .webp)
 
 
 ## 🚀 Como executar
@@ -68,11 +68,11 @@ Basta incluir uma nova linha no array `produtos` em `assets/js/script.js` e colo
 ## 🔮 Melhorias futuras
 
 - Filtro por categoria e faixa de preço
-- Mudança de array para classe/objeto
+- Mudança de array para classe/objeto -> MELHORIA CONCLUÍDA!
 - Ordenação (menor/maior preço, A-Z)
 - Carrinho de compras funcional no botão "Comprar"
 - Layout responsivo para telas menores (media queries)
-- Busca em tempo real enquanto digita
+- Busca em tempo real enquanto digita -> MELHORIA CONCLUÍDA!
 - Migração dos dados para um arquivo `.json`
 
 ## 📄 Licença
