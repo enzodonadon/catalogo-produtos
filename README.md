@@ -49,7 +49,7 @@ Não há dependências nem etapa de build.
 
 **Renderização:** a função `mostrar(lista)` limpa o catálogo e cria um `<li>` para cada produto, injetando o card com `innerHTML`. Também controla a exibição da mensagem "Nenhum produto encontrado."
 
-**Busca:** ao enviar o formulário, o `submit` é interceptado com `preventDefault()` e o array é filtrado com `.filter()` + `.some()`, verificando se o termo digitado aparece em **qualquer** campo do produto. O resultado é passado novamente para `mostrar()`.
+**Busca:** ao enviar o formulário, o `input` é interceptado com `preventDefault()` e o array/objeto é filtrado com `.filter()` + `.some()`, verificando se o termo digitado aparece em **qualquer** campo do produto. O resultado é passado novamente para `mostrar()`.
 
 ## ➕ Adicionando novos produtos
 
