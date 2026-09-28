@@ -37,7 +37,7 @@ mostrar(produtos);
 
 const form = document.querySelector('form');
 
-form.addEventListener('submit', function (evento) {
+form.addEventListener('input', function (evento) {
     evento.preventDefault(); // impede o formulário de recarregar a página
     
     const busca = document.getElementById('fsearch').value.toLowerCase();
