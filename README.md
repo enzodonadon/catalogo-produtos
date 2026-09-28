@@ -34,7 +34,7 @@ Não há dependências nem etapa de build.
 
 1. Clone o repositório:
 ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/enzodonadon/catalogo-produtos.git
 ```
 2. Abra o arquivo `index.html` no navegador
    (ou use uma extensão como o *Live Server* do VS Code).
